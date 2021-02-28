@@ -284,7 +284,49 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet dicta consectetur esse quibusdam corrupti sit obcaecati! Ut vero debitis sit.</p>
+            <h2 class="modal-name">Оставьте свои данные, мы вам перезвоним</h2>
+            <form class="modal-form">
+                    <label for="name" class="label-name">Имя</label>
+                    <div class="form-field">
+                    <input type="text" name="name" class="form-input" id="name">
+                    <svg class="form-icon" width="12px" height="12px">
+                        <use href="./images/symbol-defs.svg#icon-user"></use>
+                    </svg>
+                
+                </div>
+                    <label for="tel" class="label-name">Телефон</label>
+                    <div class="form-field">
+                    <input type="tel" name="tel" class="form-input" id="tel">
+                    <svg class="form-icon" width="13px" height="13px">
+                        <use href="./images/symbol-defs.svg#icon-tell"></use>
+                    </svg>
+                
+                </div>
+                
+                    <label for="mail" class="label-name" >Почта</label>
+                    <div class="form-field">
+                    <input type="email" name="mail" class="form-input" id="mail">
+                    <svg class="form-icon" width="15px" height="12px">
+                        <use href="./images/symbol-defs.svg#icon-mail"></use>
+                    </svg>
+                </div>
+                <div class="texteria-container">
+                <label  for="comment" class="label-name"> Комментарий</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                </div>
+                <div class="checkbox-container">
+                <label class="checkbox-name">
+                    <input type="checkbox" class="checkbox">
+                    
+                    
+                    <svg class="checkbox-icon" width="16px" height="15px">
+                        <use href="./images/symbol-defs.svg#icon-icon-check"></use>
+                    </svg>
+                    Соглашаюсь с рассылкой и принимаю   <span class="dogovor">Условия договора</span></label>
+
+                </div>
+                <button type="submit" class="btn-submit">Отправить</button>
+            </form>
             <button class="button" type="button" data-modal-close><svg class="social-icon" width="11px" height="11px">
                 <use href="./images/symbol-defs.svg#icon-vector" ></use></svg> </button>
         </div>

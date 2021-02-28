@@ -21,6 +21,9 @@ html {
   --backdrop-color: rgba(0, 0, 0, 0.2);
   --time-cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --border-color: rgba(255, 255, 255, 0.3);
+  --border-form: rgba(33, 33, 33, 0.2);
+  --holder-color: rgba(117, 117, 117, 0.5);
+  --dogovor: #757575;
 }
 body {
   font-family: Roboto, sans-serif;
